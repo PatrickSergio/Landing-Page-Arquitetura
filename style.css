@@ -1,0 +1,134 @@
+*{
+
+    margin: 0px;
+    font-family: "inter";
+    color: aliceblue;
+    
+}
+
+#div-menu-superior{
+    background-image: url(./Imagens/Fundo-titulo.svg);
+    
+
+
+}
+#titulo-menu-superior{
+    padding-top: 150px;
+    padding-left: 40px;
+    font-size: 50px;
+    
+}
+#paragrafo-menu-superior{
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-bottom: 100px;
+    font-size: 18px;
+}
+#div-menu-informacional{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    background-color: #F9F9F9;
+    
+}
+
+#empreendimentos{
+    padding-top: 110px;
+    margin-left: -146px;
+}
+#anos{
+    padding-top: 110px;
+    margin-left: -125px;
+
+}
+#projetos{
+    padding-top: 110px;
+    margin-left: -249px;
+
+}
+
+
+
+.letreiro-informacional{
+    
+    color: black;
+    font-size: 15px;
+   
+
+}
+.titulo-informacional{
+    color: black;
+    padding-left: 140px;
+    padding-top: 70px;
+    padding-bottom: 60px;
+}
+
+
+#div-imagem{
+    display: grid;
+    grid-auto-flow: column;  
+    columns: auto;  
+}
+
+.texto-imagem{
+    color: black;
+    
+}
+
+#titulo-imagem{
+    padding-left: 65px;
+    margin-top: 260px;
+    
+}
+#paragrafo-imagem{
+    padding-left: 65px;
+    padding-top: 50px;
+
+}
+
+#imagem-base{
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+#div-formulario{
+    background-image: url(./Imagens/Fundo-titulo.svg);
+}
+
+
+
+#titulo-formulario{
+    color: #FFFFFF;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 50px;
+}
+input{
+    Width:400px;
+    Height:35px;
+    align-items: center;
+    display: grid;
+    margin-left: 35%;
+    margin-top: 25px;
+    border: 0px;
+    border-radius: 5px;
+    color: black;
+}
+
+button{
+    Width:230px;
+    Height:54px;
+    background-color: #C07212;
+    border: 0px;
+    border-radius: 5px;
+    margin-left: 41%;
+    margin-top: 30px;
+    cursor: pointer;
+    margin-bottom: 50px;
+    font-weight: bolder;
+}
+
+button:hover{
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
+    box-shadow:0px 10px 15px  #06171f ;}
